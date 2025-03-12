@@ -16,6 +16,9 @@
             <clipPath id="clip-rectangulo" clipPathUnits="objectBoundingBox">
                 <path d="M0.663285 0C0.584496 0.0028013 0.210408 -8.54833e-09 0.0750243 0C-0.0189429 0 0.00198814 0.0521009 0.00198814 0.320449C0.00198814 0.554623 -0.0149349 0.6 0.0750243 0.6H0.663285C0.823644 0.6 0.663285 0.480002 0.823644 0.480002H0.912713C0.984858 0.471709 1 0.459945 1 0.289076C0.994211 0.103642 0.982186 0.0964569 0.912713 0.0964569H0.823644C0.663285 0.0964569 0.801823 0 0.663285 0Z"/>
             </clipPath>
+            <clipPath id="clip-cuadrochat" clipPathUnits="objectBoundingBox">
+                <path d="M0.0545871 0.0607278C0.122954 0.0632788 0.0630805 -0.00151715 0.123465 -0.00151708H0.219383H0.951526C0.951526 -0.00151708 0.973975 -0.00406815 0.988771 0.00613595C0.999485 0.0158298 0.999505 0.0312068 0.999485 0.0469523C0.999311 0.179146 0.998464 0.780848 0.998464 0.868381C0.998464 0.910218 0.997444 0.913789 0.949995 0.913789H0.764281C0.717342 0.913789 0.772444 0.997463 0.706628 0.997463L0.0397912 0.996503C0.0122402 0.996459 0.0086688 0.986748 0.0086688 0.986748C0.0086688 0.986748 0.00152588 0.977564 0.00152588 0.962768V0.100014C0.00152593 0.0484829 0.0163219 0.0607278 0.0545871 0.0607278Z"/>
+            </clipPath>
         </defs>
     </svg>
     <nav class="navbar">
@@ -289,7 +292,10 @@
     
     <section class="custom-container">
         <div class="custom-text-section">
-            <h1>Use <span class="custom-highlight">templates</span><br> to get started<br> your project</h1>
+            <div class="custom-text-section">
+                <h1>Use <span class="custom-highlight">templates</span><br> to get started <br> your project</h1>
+            </div>
+            
             <div class="custom-categories">
                 <button class="custom-btn">E-Commerce</button>
                 <button class="custom-btn">Education</button>
@@ -299,32 +305,44 @@
                 <button class="custom-btn">Tourism</button>
             </div>
         </div>
+
         <div class="custom-cards-container">
+            <!-- Tarjeta 1 -->
             <div class="custom-card">
-                <img src="/fondos/fondoblanco.jpg" alt="Chatbot for Marketing">
-                <div class="custom-chat-box">
-                    <p class="custom-message">Great! Happy to help find the right plan for you 😊.<br>What are you looking to do with Rotar AI?</p>
-                    <p class="custom-reply">Get more customers on my website page</p>
+                <div class="custom-card-image">
+                    <img src="/fondos/fondoblanco.jpg" alt="Chatbot for Marketing" style="clip-path: url(#clip-cuadrochat); width: 280px; height: 280px;">
+                    <div class="custom-chat-box">
+                        <p class="custom-message">Great! Happy to help find the right plan for you 😊.<br>What are you looking to do with Rotar AI?</p>
+                        <p class="custom-reply">Get more customers on my website page</p>
+                    </div>
                 </div>
                 <h3>Chatbot for Marketing</h3>
                 <p>Provide recommendations and process transactions in a chat.</p>
                 <button class="custom-btn">Try template for free →</button>
             </div>
+
+            <!-- Tarjeta 2 -->
             <div class="custom-card">
-                <img src="/fondos/fondoceleste.png" alt="Chatbot for HR">
-                <div class="custom-chat-box">
-                    <p class="custom-message">You have qualified for the next round of interviews, Alvarez! Please let me know your availability ✨</p>
-                    <p class="custom-reply">Any time between 2 to 5 PM tomorrow</p>
+                <div class="custom-card-image">
+                    <img src="/fondos/fondoceleste.png" alt="Chatbot for HR" style="clip-path: url(#clip-cuadrochat); width: 280px; height: 280px;">
+                    <div class="custom-chat-box">
+                        <p class="custom-message">You have qualified for the next round of interviews, Alvarez! Please let me know your availability ✨</p>
+                        <p class="custom-reply">Any time between 2 to 5 PM tomorrow</p>
+                    </div>
                 </div>
                 <h3>Chatbot for HR</h3>
                 <p>Find talent and interact with candidates in an innovative way.</p>
                 <button class="custom-btn">Try template for free →</button>
             </div>
+
+            <!-- Tarjeta 3 -->
             <div class="custom-card">
-                <img src="/fondos/fondorosa.jpg" alt="Chatbot for Sales">
-                <div class="custom-chat-box">
-                    <p class="custom-message">Great! Let’s optimize your process and increase conversions 🚀.</p>
-                    <p class="custom-reply">Start automating my sales now</p>
+                <div class="custom-card-image">
+                    <img src="/fondos/fondorosa.jpg" alt="Chatbot for Sales" style="clip-path: url(#clip-cuadrochat); width: 280px; height: 280px;">
+                    <div class="custom-chat-box">
+                        <p class="custom-message">Great! Let’s optimize your process and increase conversions 🚀.</p>
+                        <p class="custom-reply">Start automating my sales now</p>
+                    </div>
                 </div>
                 <h3>Chatbot for Sales</h3>
                 <p>Automate responses and increase conversions for your business.</p>

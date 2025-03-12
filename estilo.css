@@ -1371,26 +1371,33 @@ h2 {
     margin: auto;
 }
 
-/* Estilos del texto */
 .custom-text-section {
     flex: 1;
+    max-width: 500px; /* Ajusta el ancho para evitar que el texto se divida en demasiadas líneas */
 }
 
 .custom-text-section h1 {
-    font-size: 3rem;
+    margin-top: 130px;
+    font-size: 4rem;
     font-weight: bold;
-    line-height: 1.2;
+    margin-left: -90px;
+    line-height: 1.2; /* Reduce el espacio entre líneas */
+    display: inline-block; /* Asegura que el título no se expanda a toda la línea */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
 }
 
 .custom-highlight {
     background-color: #C5FFE1; /* Color verde pastel */
     padding: 5px 10px;
     border-radius: 10px;
+    display: inline-block; /* Permite que el fondo solo cubra el texto */
 }
 
 /* Botones de categorías */
 .custom-categories {
-    margin-top: 20px;
+    margin-top: -10px;
+    max-width: 500px;
+    margin-left: -90px;
 }
 
 .custom-btn {
@@ -1412,6 +1419,7 @@ h2 {
 
 /* Contenedor de tarjetas */
 .custom-cards-container {
+    margin-top: 130px;
     display: flex;
     gap: 20px;
     flex: 2;
@@ -1420,6 +1428,7 @@ h2 {
 .custom-card {
     background: white;
     border-radius: 20px;
+    margin-left: 100px;
     padding: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     width: 280px;
@@ -1441,22 +1450,25 @@ h2 {
 /* Contenedor del chat, ahora dentro de la imagen */
 .custom-chat-box {
     position: absolute;
-    top: 20px; /* Ajusta la posición según sea necesario */
+    top: 65px; /* Ajusta la posición según sea necesario */
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
 }
 
 /* Mensajes dentro del chat */
-.custom-message {
-    font-size: 14px;
+
+.custom-message, .custom-reply {
+
     background: white;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 5px;
+    font-size: 14px;
     text-align: left;
 }
+
+/* Ajuste especial para las respuestas en verde */
 
 .custom-reply {
     font-size: 14px;
@@ -1476,7 +1488,7 @@ h2 {
 
 .custom-card p {
     font-size: 14px;
-    color: gray;
+    color: rgb(0, 0, 0);
 }
 
 /* Botón de las tarjetas */
