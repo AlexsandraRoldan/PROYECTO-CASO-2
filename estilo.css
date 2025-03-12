@@ -1688,3 +1688,98 @@ h2 {
 }
 
 
+/************************sexto texto***************************************/
+.custom-banner {
+
+    position: relative;
+    width: 80%;
+    max-width: 1200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.sextocuadro {
+    margin-top: -400px;
+    position: absolute;
+    top: 0;
+    right: -110px;
+    width: 1470px;
+    height: 500px;
+    z-index: -1;
+}
+
+.content {
+    max-width: 1500px;
+    margin-top: -650px;
+}
+
+.content h1 {
+    margin-left: -80px;
+    font-size: 3.9rem;
+    font-weight: bold;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin-left: -75px;
+    font-size: 16px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    margin-top: -60px;
+    display: flex;
+    justify-content: flex-end; 
+    gap: 15px; 
+    width: 100%; 
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Asegura que el texto quede alineado a la izquierda */
+    width: 1300px;
+}
+
+
+.btn {
+    margin-left: 50px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center; 
+}
+
+
+.btn.black {
+    background: black;
+    color: white;
+    border: none;
+}
+
+.btn.black:hover {
+    background: #333;
+}
+
+.btn.outline {
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+}
+
+.btn.outline:hover {
+    background: black;
+    color: white;
+}
