@@ -1909,3 +1909,28 @@ hr {
     display: inline-block;
     border: none;
 }
+/*boton de traducir*-****************/
+.translate-link {
+    text-decoration: none; /* Quitar el subrayado del enlace */
+}
+
+.translate-button {
+    background-color: #b7f8c9; /* Color similar al resaltado */
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.translate-button:hover {
+    background-color: #a0e6b3; /* Un verde más oscuro al pasar el mouse */
+    transform: scale(1.05); /* Pequeño efecto de aumento */
+}
+
+.translate-button:active {
+    background-color: #8fd6a3; /* Color al hacer clic */
+    transform: scale(0.98);
+}
