@@ -1895,3 +1895,20 @@ hr {
     opacity: 1;
     transform: translateY(0);
 }
+/* Oculta la barra flotante de Google Translate */
+.goog-te-banner-frame {
+    display: none !important;
+}
+
+/* Oculta el logo y otros elementos */
+.goog-logo-link,
+.goog-te-gadget span,
+.goog-te-gadget-simple img {
+    display: none !important;
+}
+
+/* Ajusta el botón para que se vea limpio */
+#google_translate_element {
+    display: inline-block;
+    border: none;
+}
