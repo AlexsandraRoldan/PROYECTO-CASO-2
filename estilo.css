@@ -1882,3 +1882,16 @@ hr {
     text-align: center;
 }
 
+/**************animacion************************/
+/* Ocultar elementos inicialmente */
+.hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Cuando entren en la vista, se mostrarán */
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
