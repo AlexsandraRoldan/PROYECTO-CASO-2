@@ -42,6 +42,11 @@ La estructura del proyecto está organizada de la siguiente manera para facilita
 └── 📄 .gitignore → Archivo de configuración que excluye ciertos archivos en Git.
 
 ```
+## 🔗 Link del Proyecto  
+Puedes visualizar el proyecto sin necesidad de descargarlo en el siguiente enlace:  
+
+👉 Proyecto (https://alexsandraroldan.github.io/PROYECTO-CASO-2/)
+
 ## 🚀 Instalación
 
 Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
