@@ -19,7 +19,7 @@ Rotar IA es una plataforma web impulsada por inteligencia artificial diseñada p
    
 🔹 Para tener una mejor vision poner al 100% de zoom de la pagina.  
 🔹 Conexión a internet para cargar estilos y scripts si es necesario. <br>
-🔹 Tener instalada la extencion **Live Server"**.
+🔹 Tener instalada la extencion **Live Server**
     - Extensiones > Buscar "Live Server" > Instalar
 
 
@@ -59,8 +59,8 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 
 Para utilizar este proyecto correctamente, sigue estos pasos:
 
-1. **Abrir el archivo index.html**  
-   - Dentro de la carpeta del proyecto, abre el archivo `index.html` en un navegador web.  
+1. **Abrir el archivo pagina_1_ingles.html**  
+   - Dentro de la carpeta del proyecto, abre el archivo `pagina_1_ingles.html` desde un editor de código, para que se puedan cargar los estilos y scripts.  
    - Se recomienda usar **Google Chrome** o **Mozilla Firefox** para una mejor compatibilidad.  
 
 2. **Requisitos de visualización**  
@@ -90,11 +90,9 @@ Para el desarrollo de **Rotar IA**, se tomaron en cuenta diversos factores que i
 ## ⚠️ Dificultades y Soluciones  
 
 Durante el desarrollo de este proyecto, se presentaron algunos desafíos que fueron resueltos de la siguiente manera:  
-
-### 🔹 Diseño Responsivo  
-🛠**Dificultad:** Al cambiar el tamaño de la pantalla, algunos elementos no se ajustaban correctamente.  
-✅**Solución:** Se implementaron **media queries** en CSS para adaptar el diseño a diferentes resoluciones. Sin embargo, **aún hay detalles por mejorar** en ciertos tamaños de pantalla.  
-
+### 🔹 Diseño de imagenes
+🛠 Dificultad: No tenía experiencia en diseño y al principio fue complicado ajustar las imágenes correctamente. <br>
+✅ Solución: Investigando sobre SVG, aprendí a modificarlas con CSS y a integrarlas de forma más efectiva en el diseño.
 ### 🔹 Organización de Archivos  
 🛠**Dificultad:** La estructura del proyecto se volvió difícil de manejar a medida que se agregaban más archivos.  
 ✅**Solución:** Se creó una organización clara de carpetas para imágenes, scripts y estilos, lo que facilitó la navegación y el mantenimiento.  
@@ -106,6 +104,4 @@ Durante el desarrollo de este proyecto, se presentaron algunos desafíos que fue
 ### 🔹 Optimización de Código  
 🛠**Dificultad:** Había fragmentos de código repetitivo que hacían el mantenimiento más difícil.  
 ✅**Solución:** Se modularizó el código creando funciones reutilizables en JavaScript y se optimizaron los estilos en CSS.  
-
-Si encuentras más problemas o mejoras, no dudes en contribuir al proyecto. 🚀
 
