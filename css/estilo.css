@@ -1007,7 +1007,7 @@ h2 {
 
 
 .highlighted-section {
-    margin-left: 120px;
+    margin-left: 200px;
     margin-top: 120px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1789,7 +1789,7 @@ h2 {
 /************************************pie de pagina*************************************/
 .footer {
     margin-top: -150px;
-    margin-left: 130px;
+    margin-left: 210px;
     background-color: #111;
     color: white;
     padding: 40px 20px;
