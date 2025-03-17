@@ -65,7 +65,7 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 Para utilizar este proyecto correctamente, sigue estos pasos:
 
 1. **Abrir el archivo pagina_1_ingles.html**  
-   - Dentro de la carpeta del proyecto, abre el archivo `pagina_1_ingles.html` desde un editor de código, para que se puedan cargar los estilos y scripts.  
+   - Dentro de la carpeta del proyecto, abre el archivo `index.html` desde un editor de código, para que se puedan cargar los estilos y scripts.  
    - Se recomienda usar **Google Chrome** o **Mozilla Firefox** para una mejor compatibilidad.  
 
 2. **Requisitos de visualización**  
